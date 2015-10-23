@@ -1,0 +1,18 @@
+Rezultati funkcije EnsembleSelection na iz base-learnerjih:
+IME:
+datum_cas_ensembleWeights_parametri(scale, iter, bagFrac, podIter, kriteriji)
+parametri(iter, bagFrac, podIter, kriteriji) = (scale/unscaled)_iter_bagFrac_podIter_kriteriji
+
+
+Library base-learnejrev vsebuje:
+			BS
+			JH
+			JB_gbm1
+			JL1
+			JL5
+			MF
+			ME
+			RK
+			SVM1
+			SVM2
+	

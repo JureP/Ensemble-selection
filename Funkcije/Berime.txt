@@ -1,0 +1,43 @@
+EnsembleSelection_function.r:
+		Izbere ensemble in vrne matriko v kateri vrstica predstavlja utezi po i-ti
+		iteraciji. 
+		
+		Uporablja:
+			x, Y, iter;
+			kriterij = c('accu', 'p/rF', 'rmse'):
+				kriteriji po katerih naj izbira kateri ensemble dodati
+				obstojeèemu ensemblu.
+						
+
+ProbEnsSelKrit_function.r:
+		Izbere ensemble in vrne utezi (zadnje) modela. Sprejme zacetne verjetnostne
+		napovedi in tezo le-teh.
+
+		Uporablja:
+			X, Y, iter;
+			kriterij = c('accu', 'p/rF', 'rmse'):
+				kriteriji po katerih naj izbira kateri ensemble dodati
+				obstojeèemu ensemblu.
+
+		
+modelSelection_function.r: 
+		Funkcija razlicnih kriterijev za izbiro modela ki ga dodamo
+		obstojecemu ensemblu.
+
+		Uporablja:
+			pred (matrika), Y;
+			n = 2: stevilio najboljsih modelov ki dobijo tocke
+			nSk = c(2,1): vektor tock, dolzine n (vec tock bolje)
+			uporabaModelov = c('accu', 'p/rF', 'rmse'):
+						katere modele naj uporabi:
+								accu: accuracy
+								p/rF: precision/recall F score
+								rmse: root mean square error
+			utezKriterija = c(1, 1, 1): utez vsakega kriterija 
+													## dolzine 3!!! 
+													## vrstni red: accu, p/rF, rmse
+PlattScaling_function.r
+
+precisionPercentile_function.r
+
+precisionPercentileMatrix_function.r

@@ -1,0 +1,29 @@
+Za delovanje:	SPREMENI OKOLJE V izvedbaES_function.r
+		#######################################
+		(uredi podatke <napovedi modelov> v list
+		 rezdeljene na xTrain, yTrain, xTest, yTest)	
+		#######################################
+		SPREMENI OKOLJA V selection.r
+		#######################################
+		PREGLEJ REZULTATE S pregledRezultatovTest.r			¸
+
+
+IBIRA ENSEMBLA IZ NAPOVEDI BASELEARNERJ-JEV 
+(po clanku:
+	Ensemble selection from libraries of models;
+	Getting the most out of ensemble selection)
+
+Funkcije:
+	funkcije ki jih se uporabijo za ensemble selection
+Podatki:
+	Priprava podatkov (razdelitev podatkov, Platt scaling)
+	PODATKI SO DRUGJE (ne na githubu)
+Rezultati_izbrani:
+	vsebuje funkcijo za pregled rezultatov
+
+
+
+izvedbaES_function:
+	funkcija za izbiro ensembla
+selection:
+	skripta, ki izvede ensemble selection.
